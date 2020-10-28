@@ -1,0 +1,8 @@
+-------pip install pyautogui------
+import pyautogui
+import time
+while True:
+    time.sleep(5)
+    pyautogui.typewrite("hello! how u doing")
+    time.sleep(2)
+    pyautogui.press('enter')
